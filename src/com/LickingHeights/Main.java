@@ -45,6 +45,9 @@ System.out.println(" Give me the number how how many stars are a formed per year
         System.out.println("Give me the percent of these planets that will develop live");
         f_l = drakeEquations.nextDouble();
 
+        System.out.println("Give me the percent of these planets that will develop intelligent life");
+        f_i = drakeEquations.nextDouble();
+
         
     }
 
