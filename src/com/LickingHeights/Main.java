@@ -51,6 +51,9 @@ System.out.println(" Give me the number how how many stars are a formed per year
         System.out.println("Give me the percent of which thar will be able to  communicate ");
         f_c = drakeEquations.nextDouble();
 
+        System.out.println("Give me a planet that will last betweem 1000 and 100,000,000");
+        L = drakeEquations.nextInt();
+
         
     }
 
