@@ -1,5 +1,7 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -27,6 +29,10 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         double f_i;
         double f_c;
         int L;
+        Scanner drakeEquations;
+
+        drakeEquations = new Scanner(System.in);
+        
 
         N = rstar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
