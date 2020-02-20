@@ -39,6 +39,13 @@ System.out.println(" Give me the number how how many stars are a formed per year
         System.out.println("Give me the amount of stars formed that will have planets");
         f_p = drakeEquations.nextDouble();
 
+        System.out.println("Give me the the number of stars with planets that will be able to develop life");
+        numberOfExoplanets = drakeEquations.nextInt();
+
+        System.out.println("Give me the percent of these planets that will develop live");
+        f_l = drakeEquations.nextDouble();
+
         
+    }
 
 }
