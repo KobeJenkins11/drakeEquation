@@ -7,7 +7,7 @@ public class Main {
 
     }
 
-    public static void drakeEquation(){
+    public static void drakeEquation() {
 /*Drake equation
 N = number of intelligent species that can communicate with us
 R∗ = 1 yr−1 (1 star formed per year, on the average over the life of the galaxy; this was regarded as conservative)
@@ -19,7 +19,14 @@ fc = 0.1 to 0.2 (10–20% of which will be able to communicate)
 L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)
  */
 
-
+        int N;
+        int rstar;
+        double f_p;
+        int numberOfExoplanets;
+        double f_l;
+        double f_i;
+        double f_c;
+        int l;
 
     }
 
